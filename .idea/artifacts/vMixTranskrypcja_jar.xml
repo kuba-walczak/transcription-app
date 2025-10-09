@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="vMixTranskrypcja:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/vMixTranskrypcja_jar</output-path>
+    <root id="archive" name="vMixTranskrypcja.jar">
+      <element id="module-output" name="vMixTranskrypcja" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-simple/2.0.12/slf4j-simple-2.0.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.6.0/Java-WebSocket-1.6.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
