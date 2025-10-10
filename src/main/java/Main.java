@@ -72,10 +72,10 @@ public class Main {
         JButton connectButton = new JButton();
         connectButton.setFont(connectButton.getFont().deriveFont(24f));
         connectButton.setText("Connect");
-        connectButton.setBounds(650, 475, 125, 125);
+        connectButton.setBounds(600, 475, 175, 125);
 
         JButton logsButton = new JButton();
-        logsButton.setText("Logi (Brak Filtra)");
+        logsButton.setText("Logs (No filter)");
         logsButton.setFont(logsButton.getFont().deriveFont(24f));
         logsButton.setBounds(600, 100, 500, 50);
 
@@ -99,7 +99,7 @@ public class Main {
         microphoneBox.setFocusable(false);
 
         JLabel bufferSizeLabel = new JLabel();
-        bufferSizeLabel.setText("Audo packet size (bits)");
+        bufferSizeLabel.setText("Audio packet size (bits)");
         bufferSizeLabel.setFont(bufferSizeLabel.getFont().deriveFont(18f));
         bufferSizeLabel.setBounds(175, 475, 500, 50);
 
